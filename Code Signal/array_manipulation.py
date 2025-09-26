@@ -12,7 +12,7 @@
 # b[3] = a[2] + a[3] + a[4] = 1 + (-2) + 3 = 2
 # b[4] = a[3] + a[4] + 0 = (-2) + 3 + 0 = 1
 
-So, the output should be solution(a) = [4, 5, -1, 2, 1]
+# So, the output should be solution(a) = [4, 5, -1, 2, 1]
 
 def solution(a):
    n = len(a)
