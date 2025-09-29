@@ -1,0 +1,433 @@
+# CodeSignal Problems - Organized by Topics
+
+## 🔥 Introduction (Arcade)
+1. **Check Palindrome (CS Intro)**
+   - URL: https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ
+   - Summary: Check if a string is a palindrome (reads the same forwards and backwards)
+   - Requirements: Given string, return true if palindrome, false otherwise
+   - Example: "aabaa" → true, "abac" → false
+
+2. **Adjacent Elements Product (CS Intro)**
+   - URL: https://app.codesignal.com/arcade/intro/level-2/xzKiRjroKe5rx8fR5
+   - Summary: Find the largest product of adjacent elements in an array
+   - Requirements: Array of integers, find max product of adjacent elements
+   - Example: [3,6,-2,-5,7,3] → 21
+
+3. **Shape Area (CS Intro)**
+   - URL: https://app.codesignal.com/arcade/intro/level-2/xskq4ZxLyqQMCLshr
+   - Summary: Calculate area of n-interesting polygon
+   - Requirements: Given n, calculate area of n-interesting polygon
+   - Example: n=2 → 5, n=3 → 13
+
+4. **Make Array Consecutive 2 (CS Intro)**
+   - URL: https://app.codesignal.com/arcade/intro/level-2/bq2XnSr5kbHqpHGJC
+   - Summary: Find minimum additional statues needed to make array consecutive
+   - Requirements: Array of integers, find minimum additional numbers needed
+   - Example: [6,2,3,8] → 3
+
+5. **Almost Increasing Sequence (CS Intro)**
+   - URL: https://app.codesignal.com/arcade/intro/level-2/2mxbGwLzvkTCKAJMG
+   - Summary: Check if array can be strictly increasing by removing at most one element
+   - Requirements: Array of integers, return true if can be made strictly increasing by removing max 1 element
+   - Example: [1,3,2] → true, [1,3,2,1] → false
+
+## 🚀 Core Algorithms
+6. **Array Maximal Adjacent Difference (CS Core)**
+   - URL: https://app.codesignal.com/arcade/intro/level-5/EEJxjQ7oo7C5wAGjE
+   - Summary: Find the maximum absolute difference between adjacent elements
+   - Requirements: Array of integers, find max absolute difference between adjacent elements
+   - Example: [2,4,1,0] → 3
+
+7. **Is IPv4 Address (CS Core)**
+   - URL: https://app.codesignal.com/arcade/intro/level-5/veW5xJednTy4qcjso
+   - Summary: Validate if string is a valid IPv4 address
+   - Requirements: String, return true if valid IPv4 address format
+   - Example: "172.16.254.1" → true, "172.316.254.1" → false
+
+8. **Avoid Obstacles (CS Core)**
+   - URL: https://app.codesignal.com/arcade/intro/level-5/ZMR5n7vJbexnLrgaM
+   - Summary: Find minimal jump length to avoid all obstacles
+   - Requirements: Array of obstacle coordinates, find minimum jump length
+   - Example: [5,3,6,7,9] → 4
+
+9. **Box Blur (CS Core)**
+   - URL: https://app.codesignal.com/arcade/intro/level-5/g6c6x4iFhHh6M4yHD
+   - Summary: Apply box blur algorithm to 2D image matrix
+   - Requirements: 2D matrix, return blurred matrix using 3x3 average
+   - Example: [[1,1,1],[1,7,1],[1,1,1]] → [[1]]
+
+10. **Minesweeper (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-5/g6c6x4iFhHh6M4yHD
+    - Summary: Generate minesweeper game board with numbers indicating adjacent mines
+    - Requirements: 2D boolean matrix, return matrix with mine counts
+    - Example: [[true,false,false],[false,true,false],[false,false,false]] → [[1,2,1],[2,1,1],[1,1,1]]
+
+## 🌐 Graph Theory
+11. **Roads Building (CS Graph)**
+    - URL: https://app.codesignal.com/arcade/intro/level-11/o2uq6eTuvk7atGadR
+    - Summary: Check if road network is convenient (same incoming/outgoing roads per city)
+    - Requirements: 2D boolean matrix representing roads, return true if network is convenient
+    - Example: [[false,true,true,false],[true,false,true,false],[true,true,false,true],[false,false,true,false]] → true
+
+12. **Efficient Road Network (CS Graph)**
+    - URL: https://app.codesignal.com/arcade/intro/level-11/pwRLrkrNpnsfgMnoz
+    - Summary: Check if road network can be made efficient (any city reachable within 2 roads)
+    - Requirements: Number of cities and list of roads, return true if network can be efficient
+    - Example: n=4, roads=[[0,1],[1,2],[2,0]] → true
+
+## 💼 Interview Practice
+13. **First Duplicate (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/pMvymcahZ8dY4g75q
+    - Summary: Find first duplicate element in array with minimal second occurrence index
+    - Requirements: Array with numbers 1 to length, find first duplicate
+    - Example: [2,1,3,5,3,2] → 3
+
+14. **First Not Repeating Character (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/uX5iLwhc6L5ckSyNC
+    - Summary: Find first non-repeating character in string
+    - Requirements: String of lowercase letters, return first non-repeating character or '_'
+    - Example: "abacabad" → 'c'
+
+15. **Rotate Image (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/5A8jwLGcEpTPyyjTB
+    - Summary: Rotate n×n 2D matrix by 90 degrees clockwise
+    - Requirements: n×n 2D matrix, rotate in-place by 90 degrees clockwise
+    - Example: [[1,2,3],[4,5,6],[7,8,9]] → [[7,4,1],[8,5,2],[9,6,3]]
+
+16. **Sudoku (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/SKZ45AF99NpbmvgSu
+    - Summary: Validate if 9×9 grid represents valid Sudoku puzzle
+    - Requirements: 9×9 grid with '.' and digits, return true if valid Sudoku
+    - Example: Valid Sudoku grid → true
+
+## 🐍 Python Specific
+17. **Different Symbols Naive (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ
+    - Summary: Count number of different characters in string
+    - Requirements: String, return count of unique characters
+    - Example: "cabca" → 3
+
+18. **File Naming (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-12/sqZ9qDTFHXBNrQeLC
+    - Summary: Generate unique filenames by adding (k) suffix for duplicates
+    - Requirements: Array of desired filenames, return array with unique names
+    - Example: ["doc","doc","image","doc(1)","doc"] → ["doc","doc(1)","image","doc(1)(1)","doc(2)"]
+
+19. **Message From Binary Code (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-12/YqZwMJguZBY7Hz84P
+    - Summary: Decode binary string to ASCII message
+    - Requirements: Binary string (length multiple of 8), return decoded ASCII message
+    - Example: "010010000110010101101100011011000110111100100001" → "Hello!"
+
+20. **Spiral Numbers (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-12/tQgasP8b62JBeirMS
+    - Summary: Construct spiral matrix with numbers 1 to n²
+    - Requirements: Given n, create n×n matrix with spiral pattern
+    - Example: n=3 → [[1,2,3],[8,9,4],[7,6,5]]
+
+## 🏢 Company Challenges
+21. **String Pattern Matching (CS Company)**
+    - URL: https://app.codesignal.com/company-challenges
+    - Summary: Count substrings matching pattern where 0=vowel, 1=consonant
+    - Requirements: Pattern (0s and 1s) and source string, count matching substrings
+    - Example: pattern="010", source="amazing" → 2
+
+22. **Two Dimensional Array Traversal (CS Company)**
+    - URL: https://app.codesignal.com/company-challenges
+    - Summary: Find dropping position for 3×3 figure to form complete row
+    - Requirements: Game field matrix and 3×3 figure matrix, return column index
+    - Example: field and figure matrices → column index or -1
+
+23. **Array Manipulation (CS Company)**
+    - URL: https://app.codesignal.com/company-challenges
+    - Summary: Transform array where each element is sum of adjacent elements
+    - Requirements: Array, return array where b[i] = a[i-1] + a[i] + a[i+1]
+    - Example: [4,0,1,-2,3] → [4,5,-1,2,1]
+
+24. **Lookup Table (CS Company)**
+    - URL: https://app.codesignal.com/company-challenges
+    - Summary: Find pairs of numbers that sum to powers of 2
+    - Requirements: Array of unique integers, count pairs summing to powers of 2
+    - Example: Array of integers → count of pairs
+
+25. **New Prime Number List (CS Company)**
+    - URL: https://app.codesignal.com/company-challenges
+    - Summary: Filter array to keep only prime numbers
+    - Requirements: Array of integers, return array containing only primes
+    - Example: [1,2,3,4,5,6,7,8,9,10] → [2,3,5,7]
+
+## 🎯 Additional Challenges
+26. **Palindrome Rearranging (CS Arcade)**
+    - URL: https://app.codesignal.com/arcade/intro/level-4/xYXfzQxBye3R4JeXR
+    - Summary: Check if string characters can be rearranged to form palindrome
+    - Requirements: String, return true if can be rearranged into palindrome
+    - Example: "aabb" → true
+
+27. **Array Replace (CS Arcade)**
+    - URL: https://app.codesignal.com/arcade/intro/level-6/mCkmbxdMsMTjBc3Bm
+    - Summary: Replace all occurrences of element with substitution element
+    - Requirements: Array, element to replace, substitution element
+    - Example: [1,2,1], 1, 3 → [3,2,3]
+
+28. **Even Digits Only (CS Arcade)**
+    - URL: https://app.codesignal.com/arcade/intro/level-6/6cmcmszJQr6GQzRwW
+    - Summary: Check if all digits of integer are even
+    - Requirements: Integer, return true if all digits are even
+    - Example: 248622 → true, 642386 → false
+
+29. **Variable Name (CS Arcade)**
+    - URL: https://app.codesignal.com/arcade/intro/level-6/6Wv4WsrsMJ8Y2Fwno
+    - Summary: Validate if string is correct variable name
+    - Requirements: String, return true if valid variable name (letters, digits, underscore, no leading digit)
+    - Example: "var_1__Int" → true, "2w2" → false
+
+30. **Alphabetic Shift (CS Arcade)**
+    - URL: https://app.codesignal.com/arcade/intro/level-6/6Wv4WsrsMJ8Y2Fwno
+    - Summary: Replace each character with next character in alphabet
+    - Requirements: String, return string with each char shifted to next letter
+    - Example: "crazy" → "dsbaz"
+
+## 🔥 More Introduction Problems
+31. **All Longest Strings (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-3/fzsCQGYbxaEcTr2bL
+    - Summary: Find all the longest strings in an array
+    - Requirements: Array of strings, return array containing all longest strings
+    - Example: ["aba", "aa", "ad", "vcd", "aba"] → ["aba", "vcd", "aba"]
+
+32. **Common Character Count (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-3/3AdBC97QNuhF6RwsQ
+    - Summary: Count number of common characters between two strings
+    - Requirements: Two strings, return count of common characters
+    - Example: s1="aabcc", s2="adcaa" → 3
+
+33. **Is Lucky (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-3/3AdBC97QNuhF6RwsQ
+    - Summary: Check if ticket number is lucky (first half sum = second half sum)
+    - Requirements: Integer n, return true if sum of first half digits equals second half
+    - Example: 1230 → true (1+2 = 3+0)
+
+34. **Sort by Height (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-3/D6qmdBL2NYz49XHwM
+    - Summary: Sort array while keeping -1 values in their positions
+    - Requirements: Array with -1 and heights, sort heights while keeping -1 in place
+    - Example: [-1, 150, 190, 170, -1, -1, 160, 180] → [-1, 150, 160, 170, -1, -1, 180, 190]
+
+35. **Reverse Parentheses (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-3/9DgaPsE2a7M6M2Hu6
+    - Summary: Reverse characters inside parentheses
+    - Requirements: String with parentheses, reverse characters inside each pair
+    - Example: "a(bc)de" → "acbde"
+
+36. **Alternating Sums (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-4/xYXfzQxBye3R4JeXR
+    - Summary: Split array into two teams and return their sums
+    - Requirements: Array of integers, return [sum of even indices, sum of odd indices]
+    - Example: [50, 60, 60, 45, 70] → [180, 105]
+
+37. **Add Border (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-4/ZCD7NQnED724bJtjN
+    - Summary: Add border of asterisks around array of strings
+    - Requirements: Array of strings, add border of "*" around the picture
+    - Example: ["abc", "ded"] → ["*****", "*abc*", "*ded*", "*****"]
+
+38. **Array Previous Less (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-4/ZCD7NQnED724bJtjN
+    - Summary: For each element, find the previous smaller element
+    - Requirements: Array of integers, return array with previous smaller elements or -1
+    - Example: [3, 5, 2, 4, 5] → [-1, 3, -1, 2, 4]
+
+39. **Array Change (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-4/ZCD7NQnED724bJtjN
+    - Summary: Make array strictly increasing by incrementing elements
+    - Requirements: Array of integers, return minimum moves to make strictly increasing
+    - Example: [1, 1, 1] → 3
+
+40. **Palindrome Rearranging (CS Intro)**
+    - URL: https://app.codesignal.com/arcade/intro/level-4/xYXfzQxBye3R4JeXR
+    - Summary: Check if string characters can be rearranged to form palindrome
+    - Requirements: String, return true if can be rearranged into palindrome
+    - Example: "aabb" → true
+
+## 🚀 More Core Algorithms
+41. **Array Replace (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-6/mCkmbxdMsMTjBc3Bm
+    - Summary: Replace all occurrences of element with substitution element
+    - Requirements: Array, element to replace, substitution element
+    - Example: [1,2,1], 1, 3 → [3,2,3]
+
+42. **Even Digits Only (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-6/6cmcmszJQr6GQzRwW
+    - Summary: Check if all digits of integer are even
+    - Requirements: Integer, return true if all digits are even
+    - Example: 248622 → true, 642386 → false
+
+43. **Variable Name (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-6/6Wv4WsrsMJ8Y2Fwno
+    - Summary: Validate if string is correct variable name
+    - Requirements: String, return true if valid variable name (letters, digits, underscore, no leading digit)
+    - Example: "var_1__Int" → true, "2w2" → false
+
+44. **Chess Board Cell Color (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-6/6Wv4WsrsMJ8Y2Fwno
+    - Summary: Determine if two chess board cells have the same color
+    - Requirements: Two cell names (e.g., "A1", "B2"), return true if same color
+    - Example: "A1", "C3" → true
+
+45. **Circle of Numbers (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Find the number opposite to given number in circle
+    - Requirements: n (total numbers) and firstNumber, return opposite number
+    - Example: n=10, firstNumber=2 → 7
+
+46. **Deposit Profit (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Calculate years needed to reach target amount with compound interest
+    - Requirements: deposit, rate, threshold, return years needed
+    - Example: deposit=100, rate=20, threshold=170 → 3
+
+47. **Absolute Values Sum Minimization (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Find element that minimizes sum of absolute differences
+    - Requirements: Sorted array, return element minimizing sum of absolute differences
+    - Example: [2, 4, 7] → 4
+
+48. **Strings Rearrangement (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Check if strings can be rearranged so consecutive strings differ by one character
+    - Requirements: Array of strings, return true if rearrangement is possible
+    - Example: ["aba", "bbb", "bab"] → false
+
+49. **Extract Each Kth (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ
+    - Summary: Remove every k-th element from array
+    - Requirements: Array and k, return array with every k-th element removed
+    - Example: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], k=3 → [1, 2, 4, 5, 7, 8, 10]
+
+50. **First Digit (CS Core)**
+    - URL: https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ
+    - Summary: Find the first digit of an integer
+    - Requirements: Integer, return first digit
+    - Example: 123456 → 1
+
+## 🌐 More Graph Theory
+51. **Remove K From List (CS Graph)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Remove all occurrences of k from linked list
+    - Requirements: Linked list and integer k, remove all elements equal to k
+    - Example: [3, 1, 2, 3, 4, 5], k=3 → [1, 2, 4, 5]
+
+52. **Is List Palindrome (CS Graph)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Check if linked list is palindrome
+    - Requirements: Linked list, return true if palindrome
+    - Example: [0, 1, 2, 1, 0] → true
+
+53. **Add Two Huge Numbers (CS Graph)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Add two huge numbers represented as linked lists
+    - Requirements: Two linked lists representing huge numbers, return sum as linked list
+    - Example: [9876, 5432, 1999] + [1, 8001] → [9876, 5434, 0]
+
+54. **Merge Two Linked Lists (CS Graph)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Merge two sorted linked lists into one sorted list
+    - Requirements: Two sorted linked lists, return merged sorted list
+    - Example: [1, 2, 3] + [4, 5, 6] → [1, 2, 3, 4, 5, 6]
+
+55. **Reverse Nodes in K-Group (CS Graph)**
+    - URL: https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
+    - Summary: Reverse nodes in groups of k in linked list
+    - Requirements: Linked list and k, reverse every k consecutive nodes
+    - Example: [1, 2, 3, 4, 5], k=2 → [2, 1, 4, 3, 5]
+
+## 💼 More Interview Practice
+56. **Tree Height (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/5A8jwLGcEpTPyyjTB
+    - Summary: Calculate height of binary tree
+    - Requirements: Binary tree, return height (longest path from root to leaf)
+    - Example: Tree with height 3 → 3
+
+57. **Has Path With Given Sum (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/5A8jwLGcEpTPyyjTB
+    - Summary: Check if binary tree has root-to-leaf path with given sum
+    - Requirements: Binary tree and target sum, return true if path exists
+    - Example: Tree with path 5→4→11→2 = 22, sum=22 → true
+
+58. **Find Profitable Projects (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/5A8jwLGcEpTPyyjTB
+    - Summary: Find most profitable project within budget
+    - Requirements: Array of project costs and profits, budget, return max profit
+    - Example: costs=[4,5,2], profits=[1,2,3], budget=4 → 3
+
+59. **Is Subtree (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/5A8jwLGcEpTPyyjTB
+    - Summary: Check if one binary tree is subtree of another
+    - Requirements: Two binary trees, return true if first is subtree of second
+    - Example: Tree with subtree → true
+
+60. **Restore Binary Tree (CS Interview)**
+    - URL: https://app.codesignal.com/interview-practice/task/5A8jwLGcEpTPyyjTB
+    - Summary: Restore binary tree from inorder and preorder traversals
+    - Requirements: Inorder and preorder arrays, return reconstructed tree
+    - Example: inorder=[4,2,1,5,3], preorder=[1,2,4,3,5] → reconstructed tree
+
+## 🐍 More Python Specific
+61. **Different Symbols Naive (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ
+    - Summary: Count number of different characters in string
+    - Requirements: String, return count of unique characters
+    - Example: "cabca" → 3
+
+62. **Line Encoding (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ
+    - Summary: Encode string using run-length encoding
+    - Requirements: String, return encoded string with character counts
+    - Example: "aabbbc" → "2a3bc"
+
+63. **Digit Degree (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-9/r9azLYp2BDZPyxG2C
+    - Summary: Find digit degree of number (iterations until single digit)
+    - Requirements: Integer, return number of iterations to get single digit
+    - Example: 91 → 2 (9+1=10, 1+0=1)
+
+64. **Bishop and Pawn (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-9/r9azLYp2BDZPyxG2C
+    - Summary: Check if bishop can capture pawn in one move
+    - Requirements: Bishop and pawn positions, return true if bishop can capture
+    - Example: bishop="a1", pawn="c3" → true
+
+65. **Is Beautiful String (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-9/r9azLYp2BDZPyxG2C
+    - Summary: Check if string is beautiful (no letter appears more than previous)
+    - Requirements: String, return true if beautiful
+    - Example: "bbbaacdafe" → true
+
+66. **Find Email Domain (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-10/8RiRRM3yvbuAd3MNg
+    - Summary: Extract domain from email address
+    - Requirements: Email address, return domain part
+    - Example: "prettyandsimple@example.com" → "example.com"
+
+67. **Build Palindrome (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-10/8RiRRM3yvbuAd3MNg
+    - Summary: Build shortest palindrome by adding characters to end
+    - Requirements: String, return shortest palindrome
+    - Example: "abcdc" → "abcdcba"
+
+68. **Elections Winners (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-10/8RiRRM3yvbuAd3MNg
+    - Summary: Count candidates who can still win election
+    - Requirements: Array of votes and k remaining votes, return count of potential winners
+    - Example: [2, 3, 5, 2], k=3 → 2
+
+69. **Is MAC48 Address (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-10/8RiRRM3yvbuAd3MNg
+    - Summary: Validate if string is valid MAC48 address
+    - Requirements: String, return true if valid MAC address
+    - Example: "00-1B-63-84-45-E6" → true
+
+70. **Is Digit (CS Python)**
+    - URL: https://app.codesignal.com/arcade/intro/level-11/Zr2XXEpkBPtYWqPJu
+    - Summary: Check if character is digit
+    - Requirements: Character, return true if digit
+    - Example: '0' → true, 'a' → false
