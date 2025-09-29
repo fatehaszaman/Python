@@ -24,3 +24,23 @@ def solution(a):
        if i < n - 1:
            b[i] += a[i + 1]
    return b 
+
+# Test the function
+if __name__ == "__main__":
+    # Test with the example from the comments
+    a = [4, 0, 1, -2, 3]
+    result = solution(a)
+    print(f"Input: {a}")
+    print(f"Output: {result}")
+    
+    # Additional test cases
+    test_cases = [
+        [1, 2, 3, 4, 5],
+        [1],
+        [1, 2],
+        [0, 0, 0, 0]
+    ]
+    
+    for i, test in enumerate(test_cases, 1):
+        result = solution(test)
+        print(f"Test {i}: {test} -> {result}")
