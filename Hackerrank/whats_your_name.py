@@ -16,6 +16,9 @@
 #  2. STRING last
 #
 
+# Time: O(1)
+# Space: O(1)
+
 def print_full_name(first, last):
     print("Hello",first, last +"! You just delved into python.")
 

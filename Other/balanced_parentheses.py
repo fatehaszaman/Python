@@ -1,7 +1,9 @@
-# Write a function that determines if a string of parentheses is balanced. 
-# Stacks and string 
+# Balanced Parentheses — check if a string of brackets is balanced
+# Time: O(n)   — single pass through the string
+# Space: O(n)  — stack holds at most n/2 opening brackets
 
 
+# Time: O(n) | Space: O(n)
 def is_balanced(s):
     stack = []
     mapping = {')': '(', '}': '{', ']': '['}

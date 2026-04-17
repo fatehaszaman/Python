@@ -5,6 +5,9 @@
 
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
+# Time: O(log n)
+# Space: O(1)
+
 a= int(input())
 b= int(input())
 m= int(input())

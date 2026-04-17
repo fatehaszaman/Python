@@ -9,6 +9,9 @@
 
 #!/bin/python3
 
+# Time: O(1)
+# Space: O(1)
+
 import math
 import os
 import random

@@ -9,6 +9,9 @@
 # string s: the string to modify
 
 
+# Time: O(n)
+# Space: O(n)
+
 new=""
 def swap_case(s):
     new= s.swapcase()

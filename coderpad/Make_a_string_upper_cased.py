@@ -1,3 +1,6 @@
+# Time: O(n)
+# Space: O(n)
+
 """ The project "greet"
 Context
 This environment is a simple python project, containing a function greet. This function outputs "HELLO", followed by the name given in parameters.

@@ -1,22 +1,23 @@
-# Generate an n x n Star BoxProblem DescriptionGiven an integer n, return an n x n box made of asterisks (*) for the border, with spaces inside. 
-# The box is returned as a list of strings, where each string represents a row.Examples
+# Generate n x n Star Box — hollow square border of asterisks
+# Time: O(n)    — create n rows, each O(n) string construction -> O(n^2) overall
+# Space: O(n^2) — output list stores n strings of up to n characters each
 
 
+# Time: O(n^2) | Space: O(n^2)
 def generate_box(n):
     if n < 2:
         return []
-    
+
     box = []
     for i in range(n):
         if i == 0 or i == n - 1:
-            # Top and bottom rows: all stars
-            row = '*' * n
+            row = '*' * n          # top and bottom rows: all stars
         else:
-            # Middle rows: star + spaces + star
-            row = '*' + ' ' * (n - 2) + '*'
-        box.append([row])  # Each row as a list with one string
+            row = '*' + ' ' * (n - 2) + '*'   # middle rows: border only
+        box.append([row])
     return box
 
+
 # Test Examples
-print(generate_box(4))  # [["****"], ["*  *"], ["*   *"], ["****"]]
-print(generate_box(2))  # [["**"], ["**"]]
+print(generate_box(4))   # [["****"], ["*  *"], ["*   *"], ["****"]]
+print(generate_box(2))   # [["**"], ["**"]]

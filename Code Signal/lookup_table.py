@@ -1,16 +1,18 @@
-# Given an array of unique integers numbers, your task is to find the number of pairs of indices (i, j) such that i ≤ j and the sum numbers[i] + numbers[j] is equal to some power of 2.
-
-# Note: The numbers 2^0  = 1, 2^1 = 2, 2^2 = 4, 2^3 = 8, etc. are considered to be powers of 2.
-
+# CodeSignal — Lookup Table / Power-of-Two Pairs
+# Count pairs (i, j) with i <= j where numbers[i] + numbers[j] is a power of 2.
+# Time: O(n * log(max_val))  — for each element check 21 possible powers of 2
+# Space: O(n)                — frequency hash map
 
 from collections import defaultdict
 
- def solution(numbers):
-   counts = defaultdict(int)
-   answer = 0
-   for element in numbers:
-       counts[element] += 1
-       for two_power in range(21):
-           second_element = (1 << two_power) - element
-           answer += counts[second_element]
-   return answer 
+
+# Time: O(n * 21) = O(n) | Space: O(n)
+def solution(numbers):
+    counts = defaultdict(int)
+    answer = 0
+    for element in numbers:
+        counts[element] += 1
+        for two_power in range(21):           # 2^0 to 2^20 covers up to ~10^6
+            second_element = (1 << two_power) - element
+            answer += counts[second_element]  # count how many prior elements pair up
+    return answer

@@ -4,6 +4,9 @@
 # The third line contains the product of the two numbers.
 
 
+# Time: O(1)
+# Space: O(1)
+
 if __name__ == '__main__':
     a = int(input())
     b = int(input())

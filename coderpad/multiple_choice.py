@@ -1,3 +1,6 @@
+# Time: O(1)
+# Space: O(1)
+
 Q1:
 Python 3 MCQ1 min 40 pts
 Given the Python 3 code below, which of these statements are true?

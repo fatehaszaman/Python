@@ -4,6 +4,9 @@
 # Note that "..." represents the consecutive values in between.
 
 
+# Time: O(n)
+# Space: O(1)
+
 if __name__ == '__main__':
     n = int(input())
     string= ""
